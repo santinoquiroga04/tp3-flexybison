@@ -2,14 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "rutina.h"
 
 extern int yylex();
 extern int yyparse();
 extern FILE *yyin;
+extern int yylineno;
 
 void yyerror(const char *s);
 int lookup_variable(char *name);
-void add_variable(char *name);
+void add_variable(char *name, int value);
 void print_error(const char *error, int line);
 
 %}
@@ -43,7 +45,7 @@ statement:
         if (lookup_variable($2)) {
             print_error("Variable ya declarada", yylineno);
         } else {
-            add_variable($2);
+            add_variable($2, $4);
         }
     }
     | PRINT expression SEMICOLON {
@@ -87,6 +89,14 @@ factor:
     | IDENTIFIER {
         if (!lookup_variable($1)) {
             print_error("Variable no declarada", yylineno);
+        } else {
+            // Busca y asigna el valor de la variable
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, $1) == 0) {
+                    $$ = symbol_table[i].value;
+                    break;
+                }
+            }
         }
     }
     | LPAREN expression RPAREN {
@@ -101,6 +111,7 @@ void yyerror(const char *s) {
 }
 
 int main(int argc, char **argv) {
+    printf("Iniciando el programa...\n");
     if (argc > 1) {
         FILE *file = fopen(argv[1], "r");
         if (!file) {
@@ -108,7 +119,11 @@ int main(int argc, char **argv) {
             return 1;
         }
         yyin = file;
+        printf("Archivo de entrada cargado: %s\n", argv[1]);
+    } else {
+        printf("Leyendo de la entrada estándar (stdin)...\n");
     }
     yyparse();
+    printf("Parseo finalizado.\n");
     return 0;
 }
