@@ -8,101 +8,39 @@ extern int yylex();
 extern int yyparse();
 extern FILE *yyin;
 extern int yylineno;
-
+extern int yyleng;
+extern char *yytext;
 void yyerror(const char *s);
 int lookup_variable(char *name);
 void add_variable(char *name, int value);
 void print_error(const char *error, int line);
 
 %}
-
-%union {
-    int intval;
-    char *sval;
-}
-
-%token <sval> IDENTIFIER
-%token <intval> NUMBER
-%token INT FLOAT PRINT
-%token ASSIGN PLUS MINUS MULTIPLY DIVIDE
-%token LPAREN RPAREN SEMICOLON
-
-%type <intval> expression term factor
-
+%union{
+   char* cadena;
+   int num;
+} 
+%token ASIGNACION PYCOMA SUMA RESTA PARENIZQUIERDO PARENDERECHO
+%token <cadena> ID
+%token <num> CONSTANTE
 %%
+programa:INICIO sentencias FIN
 
-program:
-    statements
-    ;
-
-statements:
-    statements statement
-    | statement
-    ;
-
-statement:
-    type IDENTIFIER ASSIGN expression SEMICOLON {
-        if (lookup_variable($2)) {
-            print_error("Variable ya declarada", yylineno);
-        } else {
-            add_variable($2, $4);
-        }
-    }
-    | PRINT expression SEMICOLON {
-        printf("Resultado: %d\n", $2);
-    }
-    ;
-
-type:
-    INT
-    | FLOAT
-    ;
-
-expression:
-    expression PLUS term {
-        $$ = $1 + $3;
-    }
-    | expression MINUS term {
-        $$ = $1 - $3;
-    }
-    | term
-    ;
-
-term:
-    term MULTIPLY factor {
-        $$ = $1 * $3;
-    }
-    | term DIVIDE factor {
-        if ($3 == 0) {
-            print_error("Division por cero", yylineno);
-        } else {
-            $$ = $1 / $3;
-        }
-    }
-    | factor
-    ;
-
-factor:
-    NUMBER {
-        $$ = $1;
-    }
-    | IDENTIFIER {
-        if (!lookup_variable($1)) {
-            print_error("Variable no declarada", yylineno);
-        } else {
-            // Busca y asigna el valor de la variable
-            for (int i = 0; i < symbol_count; i++) {
-                if (strcmp(symbol_table[i].name, $1) == 0) {
-                    $$ = symbol_table[i].value;
-                    break;
-                }
-            }
-        }
-    }
-    | LPAREN expression RPAREN {
-        $$ = $2;
-    }
-    ;
+sentencias: sentencias sentencia 
+|sentencia
+;
+sentencia:  ID {printf("LA LONG es: %d",yyleng);if(yyleng>32) yyerror("Supera el tamanio maximo permitido");} ASIGNACION expresion PYCOMA
+;
+expresion: primaria 
+|expresion operadorAditivo primaria 
+; 
+primaria: ID
+|CONSTANTE {printf("valores %d %d",atoi(yytext),$1); }
+|PARENIZQUIERDO expresion PARENDERECHO
+;
+operadorAditivo: SUMA 
+| RESTA
+;
 
 %%
 

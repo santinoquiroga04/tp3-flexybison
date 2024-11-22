@@ -1,26 +1,28 @@
 %{
-#include "micro.tab.h"
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include "y.tab.h"
 %}
+DIGITO [0-9]
 
+LETRA [a-zA-Z]
+
+IDENTIFICADOR {LETRA}({LETRA}|{DIGITO})*
+
+constEntera {DIGITO}({DIGITO})*
 %%
-
-[ \t\n]+         ; // Ignorar espacios, tabulaciones y saltos de línea
-"int"            { return INT; }
-"float"          { return FLOAT; }
-"print"          { return PRINT; }
-"="              { return ASSIGN; }
-"+"              { return PLUS; }
-"-"              { return MINUS; }
-"*"              { return MULTIPLY; }
-"/"              { return DIVIDE; }
-"("              { return LPAREN; }
-")"              { return RPAREN; }
-";"              { return SEMICOLON; }
-[0-9]+           { yylval.intval = atoi(yytext); return NUMBER; }
-[a-zA-Z_][a-zA-Z0-9_]* { yylval.sval = strdup(yytext); return IDENTIFIER; }
-
-.                { printf("Caracter no reconocido: %s\n", yytext); }
-
+"inicio" {return INICIO;}
+"fin" {return FIN;}
+"escribir" {return ESCRIBIR;}
+"leer" {return LEER;}
+":=" {return ASIGNACION;}
+{constEntera} {yylval.num=atoi(yytext);return CONSTANTE;}
+{IDENTIFICADOR} {return ID;}
+";" {return PYCOMA;}
+"(" {return PARENIZQUIERDO;}
+")" {return PARENDERECHO;}
+"+" {return SUMA;}
+"-" {return RESTA;}
 %%
 
 int yywrap() {
