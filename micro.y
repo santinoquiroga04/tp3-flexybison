@@ -10,6 +10,7 @@ extern FILE *yyin;
 extern int yylineno;
 extern int yyleng;
 extern char *yytext;
+
 void yyerror(const char *s);
 int lookup_variable(char *name);
 void add_variable(char *name, int value);
@@ -25,6 +26,7 @@ void print_error(const char *error, int line);
 %token <num> CONSTANTE
 %type <num> lista_expresiones
 %type <cadena> leer escribir lista_ids
+%type <num> asignacion expresion
 %%
 programa:INICIO sentencias FIN
 ;
@@ -35,11 +37,17 @@ sentencia: asignacion
 | leer
 | escribir
 ;
-asignacion:  ID {printf("LA LONG es: %d",yyleng);if(yyleng>32) yyerror("Supera el tamanio maximo permitido");} ASIGNACION expresion PYCOMA
+asignacion:  ID ASIGNACION expresion PYCOMA  {
+    if (lookup_variable($1)) {
+            print_error("Variable ya declarada", yylineno);
+        } else {
+            add_variable($1, $3);
+        }
+    }
 ;
 leer: LEER PARENIZQUIERDO lista_ids PARENDERECHO PYCOMA 
 ;
-escribir: ESCRIBIR PARENIZQUIERDO lista_expresiones PARENDERECHO PYCOMA {printf("Escribir: %s\n", $3);}
+escribir: ESCRIBIR PARENIZQUIERDO lista_expresiones PARENDERECHO PYCOMA
 ;
 expresion: primaria 
 |expresion operadorAditivo primaria 
