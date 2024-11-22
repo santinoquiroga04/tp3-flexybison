@@ -466,9 +466,9 @@ static const yytype_int8 yyrhs[] =
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    32,    32,    34,    35,    37,    38,    39,    41,    49,
-      51,    53,    56,    60,    61,    62,    64,    65,    67,    77,
-      88,    89
+       0,    33,    33,    35,    36,    38,    39,    40,    42,    50,
+      52,    54,    57,    66,    67,    68,    70,    73,    75,    85,
+      96,    97
 };
 #endif
 
@@ -1392,7 +1392,7 @@ yyreduce:
         case 8:
 
 /* Line 1455 of yacc.c  */
-#line 41 ".\\micro.y"
+#line 42 ".\\micro.y"
     {
     if (lookup_variable((yyvsp[(1) - (4)].cadena))) {
             print_error("Variable ya declarada", yylineno);
@@ -1405,7 +1405,7 @@ yyreduce:
   case 11:
 
 /* Line 1455 of yacc.c  */
-#line 53 ".\\micro.y"
+#line 54 ".\\micro.y"
     {
     (yyval.num) = (yyvsp[(1) - (1)].num);
 }
@@ -1414,16 +1414,37 @@ yyreduce:
   case 12:
 
 /* Line 1455 of yacc.c  */
-#line 56 ".\\micro.y"
+#line 57 ".\\micro.y"
     {
+    if((yyvsp[(2) - (3)].cadena) == '+'){
     (yyval.num) = (yyvsp[(1) - (3)].num) + (yyvsp[(3) - (3)].num);
+    }
+    else{
+        (yyval.num) = (yyvsp[(1) - (3)].num) - (yyvsp[(3) - (3)].num);
+    }
 }
+    break;
+
+  case 16:
+
+/* Line 1455 of yacc.c  */
+#line 70 ".\\micro.y"
+    {
+    (yyval.cadena) = '+';
+}
+    break;
+
+  case 17:
+
+/* Line 1455 of yacc.c  */
+#line 73 ".\\micro.y"
+    {(yyval.cadena) = '-';}
     break;
 
   case 18:
 
 /* Line 1455 of yacc.c  */
-#line 67 ".\\micro.y"
+#line 75 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(3) - (3)].cadena))) {
             print_error("Variable no declarada", yylineno);
         } else {
@@ -1439,7 +1460,7 @@ yyreduce:
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 77 ".\\micro.y"
+#line 85 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(1) - (1)].cadena))) {
             yyerror("Variable no declarada");
         } else {
@@ -1455,7 +1476,7 @@ yyreduce:
 
 
 /* Line 1455 of yacc.c  */
-#line 1459 "y.tab.c"
+#line 1480 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1667,7 +1688,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 91 ".\\micro.y"
+#line 99 ".\\micro.y"
 
 
 void yyerror(const char *s) {

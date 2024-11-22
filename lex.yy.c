@@ -701,12 +701,12 @@ YY_RULE_SETUP
 case 11:
 YY_RULE_SETUP
 #line 26 ".\\micro.l"
-{return SUMA;}
+{yylval.cadena = strdup(yytext); return SUMA;}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
 #line 27 ".\\micro.l"
-{return RESTA;}
+{yylval.cadena = strdup(yytext); return RESTA;}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP

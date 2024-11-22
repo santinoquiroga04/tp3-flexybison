@@ -3,8 +3,8 @@ c := 2+4;
 c := 2+4;
 d := 2+5-4;
 e := 2+5-334;
-le := 2+5-4;
+leerrr := 2+5-4;
 escribir(5+a);
 leer(a,b,s,h);
-xsssss := 2+5-4;
+
 fin

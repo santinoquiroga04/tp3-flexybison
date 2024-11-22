@@ -26,6 +26,7 @@ void print_error(const char *error, int line);
 %token <num> CONSTANTE
 %type <num> lista_expresiones
 %type <cadena> leer escribir lista_ids
+%type <cadena> operadorAditivo SUMA RESTA
 %type <num> asignacion
 %type <num> expresion primaria 
 %%
@@ -54,15 +55,22 @@ expresion: primaria {
     $$ = $1;
 }
 |expresion operadorAditivo primaria{
+    if($2 == '+'){
     $$ = $1 + $3;
+    }
+    else{
+        $$ = $1 - $3;
+    }
 } 
 ; 
 primaria: ID
 |CONSTANTE 
 |PARENIZQUIERDO expresion PARENDERECHO
 ;
-operadorAditivo: SUMA 
-| RESTA
+operadorAditivo: SUMA {
+    $$ = '+';
+}
+| RESTA {$$ = '-';}
 ;
 lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
             print_error("Variable no declarada", yylineno);

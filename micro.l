@@ -23,8 +23,8 @@ constEntera {DIGITO}({DIGITO})*
 ";" {return PYCOMA;}
 "(" {return PARENIZQUIERDO;}
 ")" {return PARENDERECHO;}
-"+" {return SUMA;}
-"-" {return RESTA;}
+"+" {yylval.cadena = strdup(yytext); return SUMA;}
+"-" {yylval.cadena = strdup(yytext); return RESTA;}
 "," {return COMA;}
 %%
 
