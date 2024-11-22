@@ -68,7 +68,7 @@
 /* Copy the first part of user declarations.  */
 
 /* Line 189 of yacc.c  */
-#line 1 "micro.y"
+#line 1 ".\\micro.y"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -155,7 +155,7 @@ typedef union YYSTYPE
 {
 
 /* Line 214 of yacc.c  */
-#line 20 "micro.y"
+#line 20 ".\\micro.y"
 
    char* cadena;
    int num;
@@ -466,9 +466,9 @@ static const yytype_int8 yyrhs[] =
 /* YYRLINE[YYN] -- source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    31,    31,    33,    34,    36,    37,    38,    40,    48,
-      50,    52,    53,    55,    56,    57,    59,    60,    62,    63,
-      65,    66
+       0,    32,    32,    34,    35,    37,    38,    39,    41,    49,
+      51,    53,    56,    60,    61,    62,    64,    65,    67,    77,
+      88,    89
 };
 #endif
 
@@ -1392,7 +1392,7 @@ yyreduce:
         case 8:
 
 /* Line 1455 of yacc.c  */
-#line 40 "micro.y"
+#line 41 ".\\micro.y"
     {
     if (lookup_variable((yyvsp[(1) - (4)].cadena))) {
             print_error("Variable ya declarada", yylineno);
@@ -1402,17 +1402,60 @@ yyreduce:
     }
     break;
 
-  case 14:
+  case 11:
 
 /* Line 1455 of yacc.c  */
-#line 56 "micro.y"
-    {printf("valores %d %d",atoi(yytext),(yyvsp[(1) - (1)].num)); }
+#line 53 ".\\micro.y"
+    {
+    (yyval.num) = (yyvsp[(1) - (1)].num);
+}
+    break;
+
+  case 12:
+
+/* Line 1455 of yacc.c  */
+#line 56 ".\\micro.y"
+    {
+    (yyval.num) = (yyvsp[(1) - (3)].num) + (yyvsp[(3) - (3)].num);
+}
+    break;
+
+  case 18:
+
+/* Line 1455 of yacc.c  */
+#line 67 ".\\micro.y"
+    { if (!lookup_variable((yyvsp[(3) - (3)].cadena))) {
+            print_error("Variable no declarada", yylineno);
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, (yyvsp[(3) - (3)].cadena)) == 0) {
+                    (yyval.cadena) = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
+    break;
+
+  case 19:
+
+/* Line 1455 of yacc.c  */
+#line 77 ".\\micro.y"
+    { if (!lookup_variable((yyvsp[(1) - (1)].cadena))) {
+            yyerror("Variable no declarada");
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, (yyvsp[(1) - (1)].cadena)) == 0) {
+                    (yyval.cadena) = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
     break;
 
 
 
 /* Line 1455 of yacc.c  */
-#line 1416 "y.tab.c"
+#line 1459 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1624,7 +1667,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 68 "micro.y"
+#line 91 ".\\micro.y"
 
 
 void yyerror(const char *s) {

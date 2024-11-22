@@ -26,7 +26,8 @@ void print_error(const char *error, int line);
 %token <num> CONSTANTE
 %type <num> lista_expresiones
 %type <cadena> leer escribir lista_ids
-%type <num> asignacion expresion
+%type <num> asignacion
+%type <num> expresion primaria 
 %%
 programa:INICIO sentencias FIN
 ;
@@ -45,22 +46,44 @@ asignacion:  ID ASIGNACION expresion PYCOMA  {
         }
     }
 ;
-leer: LEER PARENIZQUIERDO lista_ids PARENDERECHO PYCOMA 
+leer: LEER PARENIZQUIERDO lista_ids PARENDERECHO PYCOMA
 ;
 escribir: ESCRIBIR PARENIZQUIERDO lista_expresiones PARENDERECHO PYCOMA
 ;
-expresion: primaria 
-|expresion operadorAditivo primaria 
+expresion: primaria {
+    $$ = $1;
+}
+|expresion operadorAditivo primaria{
+    $$ = $1 + $3;
+} 
 ; 
 primaria: ID
-|CONSTANTE {printf("valores %d %d",atoi(yytext),$1); }
+|CONSTANTE 
 |PARENIZQUIERDO expresion PARENDERECHO
 ;
 operadorAditivo: SUMA 
 | RESTA
 ;
-lista_ids: lista_ids COMA ID
-| ID
+lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
+            print_error("Variable no declarada", yylineno);
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, $3) == 0) {
+                    $$ = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
+| ID { if (!lookup_variable($1)) {
+            yyerror("Variable no declarada");
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, $1) == 0) {
+                    $$ = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
 ;
 lista_expresiones: lista_expresiones COMA expresion
 | expresion

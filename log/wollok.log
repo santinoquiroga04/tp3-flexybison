@@ -1,0 +1,211 @@
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:15:09.046Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:28:30.121Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:28:30.306Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:28:30.366Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T00:28:32.746Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:28:32.905Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T00:28:32.965Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T00:28:36.830Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:28:37.020Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T00:28:37.049Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T00:28:38.844Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:28:38.998Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T00:28:39.058Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:59:01.126Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:59:01.343Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:59:01.355Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:59:33.064Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:59:33.225Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T00:59:33.286Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T00:59:35.641Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:59:35.798Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T00:59:35.859Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T00:59:37.932Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T00:59:38.100Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T00:59:38.144Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:07:22.054Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:07:22.217Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:07:22.275Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:07:24.841Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:07:25.002Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:07:25.046Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:07:28.076Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:07:28.269Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:07:28.298Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:07:30.274Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:07:30.435Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:07:30.494Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:08:33.797Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:08:33.952Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:08:34.012Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:08:36.252Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:08:36.436Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:08:36.479Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:08:38.368Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:08:38.526Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:08:38.572Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:08:45.088Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:08:45.257Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:08:45.303Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:09:02.460Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:09:02.644Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:09:02.688Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:09:04.840Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:09:05.005Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:09:05.034Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:09:07.324Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:09:07.473Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:09:07.534Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:11:02.314Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:11:02.470Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:11:02.532Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:11:04.219Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:11:04.391Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:11:04.435Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:11:06.158Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:11:06.330Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:11:06.376Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:34:08.365Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:34:08.527Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:34:08.587Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:34:11.522Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:34:11.675Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:34:11.737Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:34:13.744Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:34:13.902Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:34:13.948Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:34:19.034Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:34:19.185Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:34:19.245Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:35:18.740Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:35:18.877Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:35:18.954Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:35:21.987Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:35:22.137Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:35:22.195Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:35:24.461Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:35:24.608Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:35:24.684Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:35:52.760Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:35:52.920Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:35:52.981Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:45:06.371Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:45:06.532Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T01:45:06.590Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:45:08.947Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:45:09.076Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:45:09.152Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:45:11.475Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:45:11.640Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:45:11.686Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:45:14.635Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:45:14.805Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:45:14.850Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:59:47.718Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:59:47.908Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T01:59:47.938Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:59:51.940Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:59:52.097Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T01:59:52.158Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:59:53.797Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T01:59:53.967Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T01:59:54.028Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:00:50.372Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:00:50.534Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:00:50.580Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:00:52.461Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:00:52.600Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:00:52.661Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:00:54.974Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:00:55.144Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:00:55.188Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:02:52.886Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:02:53.069Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:02:53.099Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:03:04.732Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:03:04.875Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:03:04.936Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:03:06.945Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:03:07.093Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:03:07.153Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:03:49.749Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:03:49.901Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:03:49.962Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:03:55.469Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:03:55.625Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:03:55.686Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:03:57.598Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:03:57.785Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:03:57.830Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:04:21.497Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:04:21.658Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.c","timestamp":"2024-11-22T02:04:21.716Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:04:23.601Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:04:23.748Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.tab.h","timestamp":"2024-11-22T02:04:23.808Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:04:25.779Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:04:25.920Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:04:25.981Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:06:29.810Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:06:29.980Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:06:30.024Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:06:32.141Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:06:32.346Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:06:32.359Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:06:34.123Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:06:34.264Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:06:34.339Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:12:53.970Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:12:54.121Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:12:54.180Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:12:56.580Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:12:56.747Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:12:56.807Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:12:58.807Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:12:58.974Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:12:59.020Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:13:01.874Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:13:02.048Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:13:02.095Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:15:13.649Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:13.835Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:15:13.879Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:15:15.671Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:15.825Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:15:15.886Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:15:17.557Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:17.725Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:15:17.771Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:15:55.476Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:55.624Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:15:55.700Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:15:57.390Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:57.540Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:15:57.598Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:15:58.993Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:15:59.139Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:15:59.199Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:19:02.486Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:19:02.666Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:19:02.712Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:19:05.024Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:19:05.161Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:19:05.222Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:19:07.516Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:19:07.694Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:19:07.723Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:19:10.007Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:19:10.150Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:19:10.208Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:33:21.876Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:33:22.019Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\lex.yy.c","timestamp":"2024-11-22T02:33:22.093Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:33:23.996Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:33:24.180Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\micro.exe","timestamp":"2024-11-22T02:33:24.208Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:33:26.006Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:33:26.152Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.c","timestamp":"2024-11-22T02:33:26.224Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:d:\\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:33:28.051Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///d%3A/Documentos/MateriasUtn2024/SintaxisYSemanticaDeLosLenguajes/TpBysonFlex/tp3-flexybison","timestamp":"2024-11-22T02:33:28.227Z"}
+{"level":"info","message":"Removing diagnostics from \\Documentos\\MateriasUtn2024\\SintaxisYSemanticaDeLosLenguajes\\TpBysonFlex\\tp3-flexybison\\y.tab.h","timestamp":"2024-11-22T02:33:28.287Z"}
