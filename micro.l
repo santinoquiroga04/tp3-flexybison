@@ -23,6 +23,7 @@ constEntera {DIGITO}({DIGITO})*
 ")" {return PARENDERECHO;}
 "+" {return SUMA;}
 "-" {return RESTA;}
+"," {return COMA;}
 %%
 
 int yywrap() {

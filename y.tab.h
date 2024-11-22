@@ -45,8 +45,13 @@
      RESTA = 261,
      PARENIZQUIERDO = 262,
      PARENDERECHO = 263,
-     ID = 264,
-     CONSTANTE = 265
+     INICIO = 264,
+     FIN = 265,
+     LEER = 266,
+     ESCRIBIR = 267,
+     COMA = 268,
+     ID = 269,
+     CONSTANTE = 270
    };
 #endif
 /* Tokens.  */
@@ -56,8 +61,13 @@
 #define RESTA 261
 #define PARENIZQUIERDO 262
 #define PARENDERECHO 263
-#define ID 264
-#define CONSTANTE 265
+#define INICIO 264
+#define FIN 265
+#define LEER 266
+#define ESCRIBIR 267
+#define COMA 268
+#define ID 269
+#define CONSTANTE 270
 
 
 
@@ -75,7 +85,7 @@ typedef union YYSTYPE
 
 
 /* Line 1676 of yacc.c  */
-#line 79 "y.tab.h"
+#line 89 "y.tab.h"
 } YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define yystype YYSTYPE /* obsolescent; will be withdrawn */

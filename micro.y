@@ -20,16 +20,26 @@ void print_error(const char *error, int line);
    char* cadena;
    int num;
 } 
-%token ASIGNACION PYCOMA SUMA RESTA PARENIZQUIERDO PARENDERECHO
+%token ASIGNACION PYCOMA SUMA RESTA PARENIZQUIERDO PARENDERECHO INICIO FIN LEER ESCRIBIR COMA
 %token <cadena> ID
 %token <num> CONSTANTE
+%type <num> lista_expresiones
+%type <cadena> leer escribir lista_ids
 %%
 programa:INICIO sentencias FIN
-
+;
 sentencias: sentencias sentencia 
 |sentencia
 ;
-sentencia:  ID {printf("LA LONG es: %d",yyleng);if(yyleng>32) yyerror("Supera el tamanio maximo permitido");} ASIGNACION expresion PYCOMA
+sentencia: asignacion 
+| leer
+| escribir
+;
+asignacion:  ID {printf("LA LONG es: %d",yyleng);if(yyleng>32) yyerror("Supera el tamanio maximo permitido");} ASIGNACION expresion PYCOMA
+;
+leer: LEER PARENIZQUIERDO lista_ids PARENDERECHO PYCOMA 
+;
+escribir: ESCRIBIR PARENIZQUIERDO lista_expresiones PARENDERECHO PYCOMA {printf("Escribir: %s\n", $3);}
 ;
 expresion: primaria 
 |expresion operadorAditivo primaria 
@@ -41,7 +51,12 @@ primaria: ID
 operadorAditivo: SUMA 
 | RESTA
 ;
-
+lista_ids: lista_ids COMA ID
+| ID
+;
+lista_expresiones: lista_expresiones COMA expresion
+| expresion
+;
 %%
 
 void yyerror(const char *s) {
