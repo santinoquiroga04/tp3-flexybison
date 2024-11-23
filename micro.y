@@ -41,7 +41,7 @@ sentencia: asignacion
 ;
 asignacion:  ID ASIGNACION expresion PYCOMA  {
     if (lookup_variable($1)) {
-            print_error("Variable ya declarada", yylineno);
+            print_error("ERROR SEMANTICO : Variable ya declarada", yylineno);
         } else {
             add_variable($1, $3);
         }
@@ -63,7 +63,16 @@ expresion: primaria {
     }
 } 
 ; 
-primaria: ID
+primaria: ID {if (!lookup_variable($1)) {
+            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, $1) == 0) {
+                    $$ = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
 |CONSTANTE 
 |PARENIZQUIERDO expresion PARENDERECHO
 ;
@@ -73,7 +82,7 @@ operadorAditivo: SUMA {
 | RESTA {$$ = '-';}
 ;
 lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
-            print_error("Variable no declarada", yylineno);
+            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
         } else {
             for (int i = 0; i < symbol_count; i++) {
                 if (strcmp(symbol_table[i].name, $3) == 0) {
@@ -83,7 +92,7 @@ lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
             }
         }}
 | ID { if (!lookup_variable($1)) {
-            yyerror("Variable no declarada");
+            yyerror("ERROR SEMANTICO . Variable no declarada");
         } else {
             for (int i = 0; i < symbol_count; i++) {
                 if (strcmp(symbol_table[i].name, $1) == 0) {

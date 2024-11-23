@@ -467,8 +467,8 @@ static const yytype_int8 yyrhs[] =
 static const yytype_uint8 yyrline[] =
 {
        0,    33,    33,    35,    36,    38,    39,    40,    42,    50,
-      52,    54,    57,    66,    67,    68,    70,    73,    75,    85,
-      96,    97
+      52,    54,    57,    66,    76,    77,    79,    82,    84,    94,
+     105,   106
 };
 #endif
 
@@ -1395,7 +1395,7 @@ yyreduce:
 #line 42 ".\\micro.y"
     {
     if (lookup_variable((yyvsp[(1) - (4)].cadena))) {
-            print_error("Variable ya declarada", yylineno);
+            print_error("ERROR SEMANTICO : Variable ya declarada", yylineno);
         } else {
             add_variable((yyvsp[(1) - (4)].cadena), (yyvsp[(3) - (4)].num));
         }
@@ -1425,10 +1425,26 @@ yyreduce:
 }
     break;
 
+  case 13:
+
+/* Line 1455 of yacc.c  */
+#line 66 ".\\micro.y"
+    {if (!lookup_variable((yyvsp[(1) - (1)].cadena))) {
+            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
+        } else {
+            for (int i = 0; i < symbol_count; i++) {
+                if (strcmp(symbol_table[i].name, (yyvsp[(1) - (1)].cadena)) == 0) {
+                    (yyval.num) = symbol_table[i].value;
+                    break;
+                }
+            }
+        }}
+    break;
+
   case 16:
 
 /* Line 1455 of yacc.c  */
-#line 70 ".\\micro.y"
+#line 79 ".\\micro.y"
     {
     (yyval.cadena) = '+';
 }
@@ -1437,16 +1453,16 @@ yyreduce:
   case 17:
 
 /* Line 1455 of yacc.c  */
-#line 73 ".\\micro.y"
+#line 82 ".\\micro.y"
     {(yyval.cadena) = '-';}
     break;
 
   case 18:
 
 /* Line 1455 of yacc.c  */
-#line 75 ".\\micro.y"
+#line 84 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(3) - (3)].cadena))) {
-            print_error("Variable no declarada", yylineno);
+            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
         } else {
             for (int i = 0; i < symbol_count; i++) {
                 if (strcmp(symbol_table[i].name, (yyvsp[(3) - (3)].cadena)) == 0) {
@@ -1460,9 +1476,9 @@ yyreduce:
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 85 ".\\micro.y"
+#line 94 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(1) - (1)].cadena))) {
-            yyerror("Variable no declarada");
+            yyerror("ERROR SEMANTICO . Variable no declarada");
         } else {
             for (int i = 0; i < symbol_count; i++) {
                 if (strcmp(symbol_table[i].name, (yyvsp[(1) - (1)].cadena)) == 0) {
@@ -1476,7 +1492,7 @@ yyreduce:
 
 
 /* Line 1455 of yacc.c  */
-#line 1480 "y.tab.c"
+#line 1496 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1688,7 +1704,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 99 ".\\micro.y"
+#line 108 ".\\micro.y"
 
 
 void yyerror(const char *s) {
