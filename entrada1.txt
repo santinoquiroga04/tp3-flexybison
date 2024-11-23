@@ -1,5 +1,4 @@
-inicio       
- casasd := 2+4-9-9;
- escribir(c,25+9);
+       
+ ssss := 2+4-9?;
 fin
 

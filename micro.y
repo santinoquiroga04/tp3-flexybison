@@ -22,10 +22,10 @@ void print_error(const char *error, int line);
    int num;
 } 
 %token ASIGNACION PYCOMA SUMA RESTA PARENIZQUIERDO PARENDERECHO INICIO FIN LEER ESCRIBIR COMA
-%token <cadena> ID
+%token <cadena> ID 
 %token <num> CONSTANTE
 %type <num> lista_expresiones
-%type <cadena> leer escribir lista_ids
+%type <cadena> leer escribir lista_ids ident
 %type <cadena> operadorAditivo SUMA RESTA
 %type <num> asignacion
 %type <num> expresion primaria 
@@ -39,7 +39,7 @@ sentencia: asignacion
 | leer
 | escribir
 ;
-asignacion:  ID ASIGNACION expresion PYCOMA  {
+asignacion:  ident  ASIGNACION expresion PYCOMA  {
     if (lookup_variable($1)) {
             print_error("ERROR SEMANTICO : Variable ya declarada", yylineno);
         } else {
@@ -63,7 +63,7 @@ expresion: primaria {
     }
 } 
 ; 
-primaria: ID {if (!lookup_variable($1)) {
+primaria: ident {if (!lookup_variable($1)) {
             print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
         } else {
             for (int i = 0; i < symbol_count; i++) {
@@ -81,7 +81,7 @@ operadorAditivo: SUMA {
 }
 | RESTA {$$ = '-';}
 ;
-lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
+lista_ids: lista_ids COMA ident { if (!lookup_variable($3)) {
             print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
         } else {
             for (int i = 0; i < symbol_count; i++) {
@@ -91,7 +91,7 @@ lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
                 }
             }
         }}
-| ID { if (!lookup_variable($1)) {
+| ident { if (!lookup_variable($1)) {
             yyerror("ERROR SEMANTICO . Variable no declarada");
         } else {
             for (int i = 0; i < symbol_count; i++) {
@@ -104,6 +104,10 @@ lista_ids: lista_ids COMA ID { if (!lookup_variable($3)) {
 ;
 lista_expresiones: lista_expresiones COMA expresion
 | expresion
+;
+ident: ID {if(yyleng>32) {
+    printf("ERROR SEMANTICO La variable %s supera la longitud",$1);
+    print_error("LINEA",yylineno);}}
 ;
 %%
 
