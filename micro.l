@@ -26,6 +26,13 @@ constEntera {DIGITO}({DIGITO})*
 "+" {yylval.cadena = strdup(yytext); return SUMA;}
 "-" {yylval.cadena = strdup(yytext); return RESTA;}
 "," {return COMA;}
+[ \t\n]+ { /* No hacer nada */ }
+. {
+    if(yytext != ' '){
+    fprintf(stderr, "Error lexico: Caracter no reconocido '%s' en la linea %d\n", yytext, yylineno);
+    exit(1); // Finaliza el programa si hay un error léxico
+    }
+}
 %%
 
 int yywrap() {

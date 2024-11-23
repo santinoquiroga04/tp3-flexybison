@@ -1,10 +1,5 @@
-inicio
-c := 2+4;
-c := 2+4;
-d := 2+5-4;
-e := 2+5-334;
-leerrr := 2+5-4;
-escribir(5+a);
-leer(a,b,s,h);
-
+inicio       
+ casasd := 2+4-9-9;
+ escribir(c,25+9);
 fin
+
