@@ -1,0 +1,20 @@
+Hola a todos, como va?
+Perdon la demora, les envio el machete para el ORM
+
+Pasos para crear tablas a partir de las entidades
+https://docs.microsoft.com/es-es/ef/ef6/modeling/code-first/data-annotations?redirectedfrom=MSDN#TableColumn 
+Pasos
+CREAR ENTIDAD Y AGREGAR ANOTACIONES A LAS PROPIEDADES
+ej en la clase [Table(name: "TBL_APL_APLICACIONES")]
+ej en las propiedades [Column(name: "ID_APLICACION"), DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
+En el proyecto de datos, ir a EFScafolding en context.cs agregar el DBSet
+ej public DbSet<LogAplicaciones> LogAplicaciones { get; set; }
+EN LA CONSOLA ADMMINISTRACION DE PAQUETES ->
+add-migration <nombre de la rama>
+update-database -> impacta los cambios en la bd (creación de tabla TBL_APL_APLICACIONES)
+Si hay scripts de base de datos, los mismos se deben ubicar en la carpeta SGAA.Datos\Migrations\SQL con la propiedad de Recurso Incrustado/Embebed Resource
+Generación de Scripts
+Generar script inicial
+script-migration
+Generar scripts "Desde Hasta"
+Script-Migration -From 20190101011200_Initial-Migration -To 20190101021200_Migration-2

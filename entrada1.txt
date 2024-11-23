@@ -1,4 +1,8 @@
-       
- ssss := 2+4-9?;
+inicio       
+ leer(a,r);
+ c := 34-9;
+ t := 2 + 56;
+ tuiasdnusdasdaodsaiosadisdamsdampasdmpsdmpampompsadmpompsodsmpampasdpmsad := 2222;
+ escribir(r,r);
 fin
 

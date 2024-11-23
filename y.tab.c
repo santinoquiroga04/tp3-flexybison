@@ -467,8 +467,8 @@ static const yytype_int8 yyrhs[] =
 static const yytype_uint8 yyrline[] =
 {
        0,    33,    33,    35,    36,    38,    39,    40,    42,    50,
-      52,    54,    57,    66,    76,    77,    79,    82,    84,    94,
-     105,   106,   108
+      52,    54,    57,    66,    76,    77,    79,    82,    84,    91,
+      99,   100,   102
 };
 #endif
 
@@ -1462,37 +1462,31 @@ yyreduce:
 /* Line 1455 of yacc.c  */
 #line 84 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(3) - (3)].cadena))) {
-            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
-        } else {
-            for (int i = 0; i < symbol_count; i++) {
-                if (strcmp(symbol_table[i].name, (yyvsp[(3) - (3)].cadena)) == 0) {
-                    (yyval.cadena) = symbol_table[i].value;
-                    break;
-                }
-            }
-        }}
+            int valor = 0;
+            printf("Ingrese el valor para la variable '%s': ", (yyvsp[(3) - (3)].cadena));
+            scanf("%d", &valor);  
+            add_variable((yyvsp[(3) - (3)].cadena),valor);
+        } 
+        }
     break;
 
   case 19:
 
 /* Line 1455 of yacc.c  */
-#line 94 ".\\micro.y"
+#line 91 ".\\micro.y"
     { if (!lookup_variable((yyvsp[(1) - (1)].cadena))) {
-            yyerror("ERROR SEMANTICO . Variable no declarada");
-        } else {
-            for (int i = 0; i < symbol_count; i++) {
-                if (strcmp(symbol_table[i].name, (yyvsp[(1) - (1)].cadena)) == 0) {
-                    (yyval.cadena) = symbol_table[i].value;
-                    break;
-                }
-            }
-        }}
+            int valor = 0;
+            printf("Ingrese el valor para la variable '%s': ", (yyvsp[(1) - (1)].cadena));
+            scanf("%d", &valor); 
+            add_variable((yyvsp[(1) - (1)].cadena),valor);
+        } 
+        }
     break;
 
   case 22:
 
 /* Line 1455 of yacc.c  */
-#line 108 ".\\micro.y"
+#line 102 ".\\micro.y"
     {if(yyleng>32) {
     printf("ERROR SEMANTICO La variable %s supera la longitud",(yyvsp[(1) - (1)].cadena));
     print_error("LINEA",yylineno);}}
@@ -1501,7 +1495,7 @@ yyreduce:
 
 
 /* Line 1455 of yacc.c  */
-#line 1505 "y.tab.c"
+#line 1499 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
@@ -1713,7 +1707,7 @@ yyreturn:
 
 
 /* Line 1675 of yacc.c  */
-#line 112 ".\\micro.y"
+#line 106 ".\\micro.y"
 
 
 void yyerror(const char *s) {

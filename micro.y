@@ -82,25 +82,19 @@ operadorAditivo: SUMA {
 | RESTA {$$ = '-';}
 ;
 lista_ids: lista_ids COMA ident { if (!lookup_variable($3)) {
-            print_error("ERROR SEMANTICO . Variable no declarada", yylineno);
-        } else {
-            for (int i = 0; i < symbol_count; i++) {
-                if (strcmp(symbol_table[i].name, $3) == 0) {
-                    $$ = symbol_table[i].value;
-                    break;
-                }
-            }
-        }}
+            int valor = 0;
+            printf("Ingrese el valor para la variable '%s': ", $3);
+            scanf("%d", &valor);  
+            add_variable($3,valor);
+        } 
+        }
 | ident { if (!lookup_variable($1)) {
-            yyerror("ERROR SEMANTICO . Variable no declarada");
-        } else {
-            for (int i = 0; i < symbol_count; i++) {
-                if (strcmp(symbol_table[i].name, $1) == 0) {
-                    $$ = symbol_table[i].value;
-                    break;
-                }
-            }
-        }}
+            int valor = 0;
+            printf("Ingrese el valor para la variable '%s': ", $1);
+            scanf("%d", &valor); 
+            add_variable($1,valor);
+        } 
+        }
 ;
 lista_expresiones: lista_expresiones COMA expresion
 | expresion
