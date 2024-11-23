@@ -1,0 +1,4 @@
+inicio
+leer(a,b);
+c:= 2+a+b;
+fin

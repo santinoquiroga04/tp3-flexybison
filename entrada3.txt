@@ -1,1 +1,5 @@
-int x = 5/0;
+inicio       
+ c := 34-9;
+ t := 2 + 56;
+ escribir(r,r);
+fin
